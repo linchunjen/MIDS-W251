@@ -10,7 +10,7 @@
 ## Summary of architecture 
 ![Summary](Summary.png)
 
-## -------------------------------------------------------
+## 
 ## Steps 
 
 ## ON Jetson TX2  
@@ -142,7 +142,7 @@ s3fs cclin-HW3-images /mnt/cclin-HW3-images -o passwd_file=$HOME/.cos_creds -o s
     ```
 
 
-## ------------------------------------------------------
+## 
 ## Implementation
 
 ### 1. When all containers connected correctly, the log of IBM cloud broker will show connection from TX2 forwarder and IBM cloud VM subscriber. The log is showed below.
@@ -156,8 +156,10 @@ s3fs cclin-HW3-images /mnt/cclin-HW3-images -o passwd_file=$HOME/.cos_creds -o s
 - By change number in file name (face_**number**.png), the different images will be showed. 
 
 - Examples:
+    - Exmaple 1:
     ![Face_1](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-face-detect-cos-standard-xez/face_1.png)
 
+    - Example 2:
     ![Face_2](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-face-detect-cos-standard-xez/face_2.png)
 
 
