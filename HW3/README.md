@@ -58,7 +58,7 @@
 - Inside opencv-python3-mqtt container bash, run
     
     ```
-    python3 face_detector.py
+    python3 /TX2_files/face_detector.py
     ```
 ### 5. Once face detection start, you will see following log
 
