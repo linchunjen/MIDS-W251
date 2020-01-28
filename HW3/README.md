@@ -155,11 +155,16 @@ s3fs cclin-HW3-images /mnt/cclin-HW3-images -o passwd_file=$HOME/.cos_creds -o s
 
 - By change number in file name (face_**number**.png), the different images will be showed. 
 
-- Examples:
-    - Exmaple 1:
+- Face detect examples:
+    - USB Camara View
+    ![Camera_view](Camera_view.png)
+
+    - Face detect example 1:
+
     ![Face_1](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-face-detect-cos-standard-xez/face_1.png)
 
-    - Example 2:
+    - Face detect example 2:
+
     ![Face_2](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-face-detect-cos-standard-xez/face_2.png)
 
 
