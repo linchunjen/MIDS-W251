@@ -163,6 +163,16 @@ s3fs cclin-HW3-images /mnt/cclin-HW3-images -o passwd_file=$HOME/.cos_creds -o s
     ![Face_2](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-face-detect-cos-standard-xez/face_2.png)
 
 
+## 
+## Discussion of usage of naming of the MQTT topics and the QoS 
 
+### 1. Naming of the MQTT topics
+- Here, the purpose of design is for detecting face. Therefore, the MQTT topics is named as "face_detect". 
+- To provide ability on extending topics in the future, I used multi-level wildcard (/#). With this setting, it allow me to create series of topics to detect different parts of face, such as face_detect/face, face_detect/eye, face_detect/nose etc...
 
-
+### 2. The QoS
+- The QoS that I used is `1` with following reason;
+    - it guarantees the message arrives at least once but allows for multiple deliveries
+    - QoS 1 delivers messages much faster than QoS 2
+    - all messages sent with QoS 1 are queued for offline clients until clients is available again
+    - the message can be processed immediately
