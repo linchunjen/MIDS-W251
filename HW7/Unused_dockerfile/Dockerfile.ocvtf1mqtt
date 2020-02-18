@@ -1,0 +1,26 @@
+FROM w251/tensorrt:dev-tx2-4.3_b132
+
+RUN apt update 
+
+RUN apt install -y curl git python3-opencv python3-pip vim-tiny mosquitto mosquitto-clients libopencv-dev 
+RUN apt install -y python3-matplotlib python3-pil
+RUN apt install -y libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
+
+## RUN pip3 install -U numpy grpcio absl-py py-cpuinfo psutil portpicker grpcio six mock requests gast h5py astor termcolor
+RUN pip3 install -U numpy==1.16.1 future==0.17.1 mock==3.0.5 h5py==2.9.0 keras_preprocessing==1.0.5 keras_applications==1.0.8 gast==0.2.2 enum34 futures protobuf
+
+RUN pip3 install -U pip
+# tf2
+# RUN pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow-gpu
+
+# if we want to go back to tensorflow 1
+RUN pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 "tensorflow-gpu<2"
+
+# create jupyter notebook
+WORKDIR /notebooks
+RUN git clone --recursive https://github.com/NVIDIA-Jetson/tf_trt_models.git
+WORKDIR tf_trt_models
+RUN ./install.sh python3
+# download v2
+WORKDIR v2
+RUN git clone --recursive https://github.com/MIDS-scaling-up/v2.git
