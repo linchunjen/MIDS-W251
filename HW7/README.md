@@ -24,6 +24,8 @@
 
 ### 2. Face images 
 
+- Example imags: http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-x5t/TF-face_10.png
+
 ![TF-face_10](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-x5t/TF-face_10.png)
 
 
