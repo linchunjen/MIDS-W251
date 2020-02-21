@@ -1,23 +1,34 @@
 # Homework 7_Curtis Lin
 
 ## Goal:
+- Using Tensorflow for face detect in TX2. The images are sent to IBM cloud object storage via mqtt. 
 - Perform the comparison the accuracy of face detection between OpenCV and Tensorflow. 
-
-## Note: 
-
-- The mqtt part was not done. However, the code can be extended for video capture with CV2 and published with Mosquitto. 
 
 ## Files
 
 - Dockerfile.tf1-cv2-mqtt: docker container provide running face detection in Python with either OpenCV or Tensorflow
 
+- face_detect_tf1mqtt.py: python code for Tensorflow face detection and publishing images through mosquitto
+
 - face_detect_cv2.py: python code for OpenCV face detection
 
 - face_detect_tf1.py: python code for Tensorflow face detection
 
-- Both face_detect_cv2.py and face_detect_tf1.py can be extended for mqtt publisher and compatible for mqtt subscriber
+- All the mqtt-related files (broker, forwarder, and subscriber) were reused from HW3
 
-## Results:
+-------------------------------------------------------
+## Part I: Face detection with Tensorflow and send images to IBM cloud object storage
+
+### 1. IBM cloud object storage:
+- A new object storage and busket was created for HW7 (cclin-jumper-storage-cos-standard-x5t)
+
+### 2. Face images 
+
+![TF-face_10](http://s3.us-south.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-x5t/TF-face_10.png)
+
+
+----------------------------------------------------
+## Part II: Comparison of OpenCV and Tensorflow-based face detection 
 
 ### 1. OpenCV: 
 
