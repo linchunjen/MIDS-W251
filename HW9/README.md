@@ -109,7 +109,7 @@ The model might not be overfitted since the values of train_loss and eval_loss w
 > ![V100a_smi](V100a_nvidia_smi.png) 
 > ![V100b_smi](V100b_nvidia_smi.png)
 
-- For the second trial, I fully used 3 GPUs (1 on V100a and 3 on V100b)
+- For the second trial, I fully used 3 GPUs (1 on V100a and 2 on V100b)
 
 > ![V100a_smi-check_after-start-training](V100a_smi-check_after-start-training.png)
 
