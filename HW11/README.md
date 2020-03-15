@@ -32,7 +32,13 @@ Based on the 10 testing, the conclusions were listed below.
 
 ## Videos of best models in object storage
 
-### Baseline model:
+### 1. File stroage
+
+- All video files have been stored in IBM object storage as showed below.
+
+![object_storage](object_storage.png)
+
+### 2. Baseline model:
 
 - Baseline: `29` succesful landing
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Baseline_frame50000.mp4
@@ -40,7 +46,7 @@ Based on the 10 testing, the conclusions were listed below.
 
     ![Baseline-50000](Baseline_frame50000.gif)
 
-### Best models:
+### 3. Best models:
 - Test-7: `62` succesful landing
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-7_frame50000.mp4
 
