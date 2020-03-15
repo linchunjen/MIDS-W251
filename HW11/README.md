@@ -25,7 +25,7 @@ Based on the 10 testing, the conclusions were listed below.
     - In the comparison to test-7 and test-9, `adam` optimizer (62 succesful landing; test-7) outperformed `adamax` (34 successful landing, test-9). 
 
 - Final activation function:
-    - `Sigmoid` (62 succesful landing; test-7) showed better performance in the comparision to `liner` (58 succesful landing; test-6) and `softmax` (49 succesful landing; test-8).
+    - `Sigmoid` (62 succesful landing; test-7) showed better performance in the comparision to `linear` (58 succesful landing; test-6) and `softmax` (49 succesful landing; test-8).
 
 - Batch size:
     - Increasing the batch size improved the performance. Here, `batch size = 60` (62 succesful landing; test-7) had better performance in the comparison to `batch size = 20` (35 succesful landing; test-10) 
