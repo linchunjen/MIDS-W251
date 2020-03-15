@@ -38,26 +38,26 @@ Based on the 10 testing, the conclusions were listed below.
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Baseline_frame50000.mp4
 
 
-    - <video src="http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Baseline_frame50000.mp4" width="320" height="200" controls preload></video>
+    ![Baseline-50000](Baseline_frame50000.gif)
 
 ### Best models:
 - Test-7: `62` succesful landing
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-7_frame50000.mp4
 
 
-    - <video src="http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-7_frame50000.mp4" width="320" height="200" controls preload></video>
+    - ![Test7-50000](Test-7_frame50000.gif)
 
 - Test-6: `58` succesful landing
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-6_frame50000.mp4
 
 
-    - <video src="http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-6_frame50000.mp4" width="320" height="200" controls preload></video>
+    - ![Test6-50000](Test-6_frame50000.gif)
 
 - Test-1: `51` succesful landing
     - Video link: http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-1_frame50000.mp4
 
 
-    - <video src="http://s3.us-east.cloud-object-storage.appdomain.cloud/cclin-jumper-storage-cos-standard-jsq/Test-1_frame50000.mp4" width="320" height="200" controls preload></video>
+    ![Test1-50000](Test-1_frame50000.gif)
 
 
 
