@@ -22,7 +22,7 @@
 
 - 5. Mounting the distributed FS
 
-    ![mount_FS](mounted_FS.png)
+    ![mount_FS](mounted_fs.png)
 
 - 6. Writing on distributed FS
 
