@@ -40,7 +40,7 @@
 
 - How much disk space is used after step 4?
 
-The `aus_gut.urls` has *3953* urls. After crawled, the size of  `aus_gutemberg_dataset` is 1.1G. The  `us_gutemberg` has *57671* lines and take about 24 hours to crawled. For 230 million urls of reddit urls, it will take several days to run even though the task was distribute to 2 nodes. Therefore, the disk space that is used still remains unknown. 
+    - The `aus_gut.urls` has *3953* urls. After crawled, the size of  `aus_gutemberg_dataset` is 1.1G. The  `us_gutemberg` has *57671* lines and take about 24 hours to crawled. For 230 million urls of reddit urls, it will take several days to run even though the task was distribute to 2 nodes. Therefore, the disk space that is used still remains unknown. 
 
 - Did you parallelize the crawlers in step 4? If so, how?
 
